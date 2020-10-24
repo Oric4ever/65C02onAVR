@@ -8,6 +8,7 @@ I don't intend to put additional work on this virtual machine, because other vir
 "Hybrid65C02" emulator by F.Frances, (C) 2019.
 
   Emulates a 65C02 :
+  
     - all instructions of the 65C02
     - additional COP instruction that calls AVR routines
 
@@ -16,6 +17,7 @@ I don't intend to put additional work on this virtual machine, because other vir
   to 64 KB) such as ATmega161/162/640/1280/2560/1281/2561...
 
   Caveats:
+  
     - Decimal mode is not implemented
     - the stack is shared between the emulated 65x02 cpu and the host AVR.
       The emulator does not use the stack except when calling AVR routines
@@ -34,6 +36,7 @@ I don't intend to put additional work on this virtual machine, because other vir
     - RTI and RET don't check if return address is in zero page
 
   Speed: 
+  
     Running the following program within BASIC-65 takes 10 seconds on a 16 MHz
     ATmega162, while the same program takes 40 seconds on a PET Commodore,
     hence a 16 MHz ATmega162 emulates a 4 MHz 6502...
@@ -43,6 +46,7 @@ I don't intend to put additional work on this virtual machine, because other vir
     30 NEXT
 
   ATmega162 timing examples for some 6502 instructions:
+  
     NOP                6 cycles
     INX                8 cycles
     PHA                8 cycles
