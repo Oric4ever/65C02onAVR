@@ -2,7 +2,7 @@
 
 This is a 65C02 virtual machine for my V-M8 microcomputer (ATmega162 with 64KB of external ram). 
 It has only be tested by running two roms: Microsoft's BASIC-65 (as found on KIM-1, Pet Commodore, Tangerine's Microtan...), and its derived version found on the Oric Atmos (Tangerine Basic 1.1).
-The emulated 65C02 runs at approximatively 2 MHz on a 16 MHz ATmega162.
+The emulated 65C02 runs at approximatively 4 MHz on a 16 MHz ATmega162.
 I don't intend to put additional work on this virtual machine, because other virtual machines are more useful (i.e give access to a wider library of software, such as the Z80+CP/M virtual machine) or are more interesting (such as the Turbo Modula-2 Reloaded virtual machine).
 
 "Hybrid65C02" emulator by F.Frances, (C) 2019.
